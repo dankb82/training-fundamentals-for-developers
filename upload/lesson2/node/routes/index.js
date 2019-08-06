@@ -1,8 +1,8 @@
 const cloudinary = require('cloudinary').v2;
 cloudinary.config({
-  cloud_name: process.env.CLOUD_NAME,
-  api_key: process.env.API_KEY,
-  api_secret: process.env.API_SECRET
+  cloud_name: "danb",
+  api_key: "197159462868287",
+  api_secret: "V0__P39yF-MY9ESfme4vMIf3Ef8"
 });
 
 const path = require('path');

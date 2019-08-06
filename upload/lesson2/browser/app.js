@@ -4,8 +4,8 @@ $(document).ready(() => {
   * change these values
   * 
   */
-  const cloud_name = '';
-  const unsignedUploadPreset = '';
+  const cloud_name = 'danb';
+  const unsignedUploadPreset = 'd5npf4zx';
   
   const fileuploadProgress = $('#fileuploadProgress');
   const cloudinaryuploadProgress = $('#cloudinaryuploadProgress');
