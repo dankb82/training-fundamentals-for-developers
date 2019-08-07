@@ -1,7 +1,7 @@
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 
-cloudinary.uploader.upload('https://i0.wp.com/metalinjection.net/wp-content/uploads/2019/03/metallica.jpg', {
+cloudinary.uploader.upload('https://www.jambase.com/wp-content/uploads/2016/09/Phish-2016-Press-Crop-1480x779.jpg', {
         detection: 'aws_rek_face',
         auto_tagging: 0.7
     })
